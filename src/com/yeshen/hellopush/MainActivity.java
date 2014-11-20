@@ -108,7 +108,7 @@ public class MainActivity extends Activity {
 		}
 		public void handleMessage(Message msg){
 			String meassgeStr="<b>Message:</b><br><br>#";
-			String message=meassgeStr.replace("#", msg.getData().getString(MSG, ""));
+			String message=meassgeStr.replace("#", msg.getData().getString(MSG));
 			iMessageTextView.setText(Html.fromHtml(message));
 		}
 	}
