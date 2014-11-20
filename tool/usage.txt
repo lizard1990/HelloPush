@@ -1,0 +1,6 @@
+select IPaddress£º192.168.1.76
+Connect
+publish topic£º7 QoS£º2 message£ºanything
+
+And the message will get and show in HelloPush
+
